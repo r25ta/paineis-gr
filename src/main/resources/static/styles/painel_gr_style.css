@@ -1,0 +1,60 @@
+:root { -
+	-painel-titulo-font: 5.0vw; -
+	-painel-indicador-font: 17.0vw;
+}
+
+body {
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+		'Lucida Sans', Arial, sans-serif;;
+	font-weight: bold;
+}
+
+#painel-titulo {
+	font-size: var(- -painel-titulo-font);
+	position: absolute;
+	margin-top: calc(var(- -painel-titulo-font)/1.2);
+	margin-left: 3vw;
+}
+
+#painel-indicador {
+	position: absolute;
+	text-align: center;
+	font-size: var(- -painel-indicador-font);
+	margin-top: calc(var(- -painel-indicador-font)/1);
+	margin-left: 2vw;
+}
+
+#painel-acidentes-ambientais {
+	background-color: #221900;
+	color: #fff;
+}
+
+#painel-acidentes {
+	background-color: #604700;
+	color: #fff;
+}
+
+#painel-fortes-suspeitas {
+	background-color: #fab900;
+	color: #000;
+}
+
+#painel-roubos {
+	background-color: #b88800;
+	color: #fff;
+}
+
+#painel-severidade-mortes {
+	background-color: #000;
+	color: #fff;
+}
+
+#painel-viagens-mdfe {
+	background-color: #ffe28f;
+	color: #000;
+}
+
+#painel-viagens-monitoradas {
+	background-color: #ffd14f;
+	color: #000;
+}
